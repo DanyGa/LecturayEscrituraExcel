@@ -55,6 +55,7 @@ namespace LecturayEscrituraExcel
             // 
             this.lMatricula.AutoSize = true;
             this.lMatricula.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lMatricula.ForeColor = System.Drawing.Color.Snow;
             this.lMatricula.Location = new System.Drawing.Point(25, 35);
             this.lMatricula.Name = "lMatricula";
             this.lMatricula.Size = new System.Drawing.Size(101, 21);
@@ -65,6 +66,7 @@ namespace LecturayEscrituraExcel
             // 
             this.lNombre.AutoSize = true;
             this.lNombre.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lNombre.ForeColor = System.Drawing.Color.Snow;
             this.lNombre.Location = new System.Drawing.Point(25, 95);
             this.lNombre.Name = "lNombre";
             this.lNombre.Size = new System.Drawing.Size(85, 21);
@@ -75,6 +77,7 @@ namespace LecturayEscrituraExcel
             // 
             this.lEspecialidad.AutoSize = true;
             this.lEspecialidad.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lEspecialidad.ForeColor = System.Drawing.Color.Snow;
             this.lEspecialidad.Location = new System.Drawing.Point(25, 149);
             this.lEspecialidad.Name = "lEspecialidad";
             this.lEspecialidad.Size = new System.Drawing.Size(126, 21);
@@ -85,6 +88,7 @@ namespace LecturayEscrituraExcel
             // 
             this.lSemestre.AutoSize = true;
             this.lSemestre.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lSemestre.ForeColor = System.Drawing.Color.Snow;
             this.lSemestre.Location = new System.Drawing.Point(25, 209);
             this.lSemestre.Name = "lSemestre";
             this.lSemestre.Size = new System.Drawing.Size(97, 21);
@@ -96,7 +100,7 @@ namespace LecturayEscrituraExcel
             this.txtMatricula.BackColor = System.Drawing.Color.Snow;
             this.txtMatricula.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMatricula.ForeColor = System.Drawing.Color.Black;
-            this.txtMatricula.Location = new System.Drawing.Point(151, 32);
+            this.txtMatricula.Location = new System.Drawing.Point(197, 34);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(258, 26);
             this.txtMatricula.TabIndex = 4;
@@ -106,7 +110,7 @@ namespace LecturayEscrituraExcel
             this.txtNombre.BackColor = System.Drawing.Color.Snow;
             this.txtNombre.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.Black;
-            this.txtNombre.Location = new System.Drawing.Point(151, 92);
+            this.txtNombre.Location = new System.Drawing.Point(197, 94);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(258, 26);
             this.txtNombre.TabIndex = 5;
@@ -123,7 +127,7 @@ namespace LecturayEscrituraExcel
             "Industrial",
             "Gestion Empresarial",
             "Energias Renovables"});
-            this.cbEspecialidad.Location = new System.Drawing.Point(151, 146);
+            this.cbEspecialidad.Location = new System.Drawing.Point(197, 148);
             this.cbEspecialidad.Name = "cbEspecialidad";
             this.cbEspecialidad.Size = new System.Drawing.Size(258, 26);
             this.cbEspecialidad.TabIndex = 6;
@@ -146,7 +150,7 @@ namespace LecturayEscrituraExcel
             "10",
             "11",
             "12"});
-            this.cbSemestre.Location = new System.Drawing.Point(151, 206);
+            this.cbSemestre.Location = new System.Drawing.Point(197, 208);
             this.cbSemestre.Name = "cbSemestre";
             this.cbSemestre.Size = new System.Drawing.Size(258, 26);
             this.cbSemestre.TabIndex = 7;
@@ -155,9 +159,10 @@ namespace LecturayEscrituraExcel
             // 
             this.btnLeer.BackColor = System.Drawing.Color.Snow;
             this.btnLeer.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeer.ForeColor = System.Drawing.Color.LightSlateGray;
             this.btnLeer.Location = new System.Drawing.Point(29, 301);
             this.btnLeer.Name = "btnLeer";
-            this.btnLeer.Size = new System.Drawing.Size(117, 82);
+            this.btnLeer.Size = new System.Drawing.Size(152, 82);
             this.btnLeer.TabIndex = 8;
             this.btnLeer.Text = "Leer Archivo";
             this.btnLeer.UseVisualStyleBackColor = false;
@@ -168,9 +173,10 @@ namespace LecturayEscrituraExcel
             this.btnEscribir.BackColor = System.Drawing.Color.Snow;
             this.btnEscribir.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnEscribir.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEscribir.Location = new System.Drawing.Point(152, 301);
+            this.btnEscribir.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnEscribir.Location = new System.Drawing.Point(187, 301);
             this.btnEscribir.Name = "btnEscribir";
-            this.btnEscribir.Size = new System.Drawing.Size(117, 82);
+            this.btnEscribir.Size = new System.Drawing.Size(152, 82);
             this.btnEscribir.TabIndex = 9;
             this.btnEscribir.Text = "Escribir Archivo";
             this.btnEscribir.UseVisualStyleBackColor = false;
@@ -180,9 +186,10 @@ namespace LecturayEscrituraExcel
             // 
             this.btnLimpiar.BackColor = System.Drawing.Color.Snow;
             this.btnLimpiar.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpiar.Location = new System.Drawing.Point(275, 301);
+            this.btnLimpiar.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnLimpiar.Location = new System.Drawing.Point(345, 301);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(117, 82);
+            this.btnLimpiar.Size = new System.Drawing.Size(152, 82);
             this.btnLimpiar.TabIndex = 10;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -192,9 +199,10 @@ namespace LecturayEscrituraExcel
             // 
             this.btnSalir.BackColor = System.Drawing.Color.Snow;
             this.btnSalir.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalir.Location = new System.Drawing.Point(398, 301);
+            this.btnSalir.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnSalir.Location = new System.Drawing.Point(503, 301);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(117, 82);
+            this.btnSalir.Size = new System.Drawing.Size(152, 82);
             this.btnSalir.TabIndex = 11;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
@@ -204,9 +212,10 @@ namespace LecturayEscrituraExcel
             // 
             this.btnEspecialidad.BackColor = System.Drawing.Color.Snow;
             this.btnEspecialidad.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEspecialidad.Location = new System.Drawing.Point(521, 301);
+            this.btnEspecialidad.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnEspecialidad.Location = new System.Drawing.Point(661, 301);
             this.btnEspecialidad.Name = "btnEspecialidad";
-            this.btnEspecialidad.Size = new System.Drawing.Size(117, 82);
+            this.btnEspecialidad.Size = new System.Drawing.Size(152, 82);
             this.btnEspecialidad.TabIndex = 12;
             this.btnEspecialidad.Text = "Buscar por especialidad";
             this.btnEspecialidad.UseVisualStyleBackColor = false;
@@ -216,9 +225,10 @@ namespace LecturayEscrituraExcel
             // 
             this.btnSemestre.BackColor = System.Drawing.Color.Snow;
             this.btnSemestre.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSemestre.Location = new System.Drawing.Point(644, 301);
+            this.btnSemestre.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnSemestre.Location = new System.Drawing.Point(819, 301);
             this.btnSemestre.Name = "btnSemestre";
-            this.btnSemestre.Size = new System.Drawing.Size(117, 82);
+            this.btnSemestre.Size = new System.Drawing.Size(152, 82);
             this.btnSemestre.TabIndex = 13;
             this.btnSemestre.Text = "Buscar por Semestre";
             this.btnSemestre.UseVisualStyleBackColor = false;
@@ -235,9 +245,9 @@ namespace LecturayEscrituraExcel
             this.cSemestre});
             this.lvCaracteristicas.Font = new System.Drawing.Font("Century Schoolbook", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lvCaracteristicas.HideSelection = false;
-            this.lvCaracteristicas.Location = new System.Drawing.Point(457, 32);
+            this.lvCaracteristicas.Location = new System.Drawing.Point(509, 23);
             this.lvCaracteristicas.Name = "lvCaracteristicas";
-            this.lvCaracteristicas.Size = new System.Drawing.Size(647, 248);
+            this.lvCaracteristicas.Size = new System.Drawing.Size(803, 248);
             this.lvCaracteristicas.TabIndex = 14;
             this.lvCaracteristicas.UseCompatibleStateImageBehavior = false;
             this.lvCaracteristicas.View = System.Windows.Forms.View.Details;
@@ -272,7 +282,7 @@ namespace LecturayEscrituraExcel
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1148, 427);
+            this.ClientSize = new System.Drawing.Size(1343, 427);
             this.ControlBox = false;
             this.Controls.Add(this.lvCaracteristicas);
             this.Controls.Add(this.btnSemestre);
