@@ -161,6 +161,7 @@ namespace LecturayEscrituraExcel
             this.btnLeer.TabIndex = 8;
             this.btnLeer.Text = "Leer Archivo";
             this.btnLeer.UseVisualStyleBackColor = false;
+            this.btnLeer.Click += new System.EventHandler(this.btnLeer_Click);
             // 
             // btnEscribir
             // 
@@ -173,6 +174,7 @@ namespace LecturayEscrituraExcel
             this.btnEscribir.TabIndex = 9;
             this.btnEscribir.Text = "Escribir Archivo";
             this.btnEscribir.UseVisualStyleBackColor = false;
+            this.btnEscribir.Click += new System.EventHandler(this.btnEscribir_Click);
             // 
             // btnLimpiar
             // 
@@ -184,6 +186,7 @@ namespace LecturayEscrituraExcel
             this.btnLimpiar.TabIndex = 10;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // btnSalir
             // 
@@ -195,6 +198,7 @@ namespace LecturayEscrituraExcel
             this.btnSalir.TabIndex = 11;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = false;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnEspecialidad
             // 
@@ -206,6 +210,7 @@ namespace LecturayEscrituraExcel
             this.btnEspecialidad.TabIndex = 12;
             this.btnEspecialidad.Text = "Buscar por especialidad";
             this.btnEspecialidad.UseVisualStyleBackColor = false;
+            this.btnEspecialidad.Click += new System.EventHandler(this.btnEspecialidad_Click);
             // 
             // btnSemestre
             // 
@@ -217,6 +222,7 @@ namespace LecturayEscrituraExcel
             this.btnSemestre.TabIndex = 13;
             this.btnSemestre.Text = "Buscar por Semestre";
             this.btnSemestre.UseVisualStyleBackColor = false;
+            this.btnSemestre.Click += new System.EventHandler(this.btnSemestre_Click);
             // 
             // lvCaracteristicas
             // 
@@ -288,6 +294,7 @@ namespace LecturayEscrituraExcel
             this.Name = "FrmLecturayEscritura";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manejo de Archivos con Excel";
+            this.Load += new System.EventHandler(this.FrmLecturayEscritura_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

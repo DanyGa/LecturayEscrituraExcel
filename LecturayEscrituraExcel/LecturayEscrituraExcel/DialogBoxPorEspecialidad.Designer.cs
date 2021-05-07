@@ -42,15 +42,18 @@ namespace LecturayEscrituraExcel
             this.cNombre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cEspecialidad = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.cSemestre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btnExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbIntro
             // 
             this.lbIntro.AutoSize = true;
-            this.lbIntro.Font = new System.Drawing.Font("Century Schoolbook", 10.2F, System.Drawing.FontStyle.Bold);
-            this.lbIntro.Location = new System.Drawing.Point(224, 28);
+            this.lbIntro.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.lbIntro.Font = new System.Drawing.Font("Century Schoolbook", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbIntro.ForeColor = System.Drawing.Color.Snow;
+            this.lbIntro.Location = new System.Drawing.Point(200, 29);
             this.lbIntro.Name = "lbIntro";
-            this.lbIntro.Size = new System.Drawing.Size(260, 21);
+            this.lbIntro.Size = new System.Drawing.Size(433, 34);
             this.lbIntro.TabIndex = 0;
             this.lbIntro.Text = "Selecciona una especialidad:";
             // 
@@ -58,67 +61,79 @@ namespace LecturayEscrituraExcel
             // 
             this.btnMecanica.BackColor = System.Drawing.Color.Snow;
             this.btnMecanica.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnMecanica.Location = new System.Drawing.Point(284, 76);
+            this.btnMecanica.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnMecanica.Location = new System.Drawing.Point(348, 76);
             this.btnMecanica.Name = "btnMecanica";
             this.btnMecanica.Size = new System.Drawing.Size(133, 63);
             this.btnMecanica.TabIndex = 1;
             this.btnMecanica.Text = "Mecanica";
             this.btnMecanica.UseVisualStyleBackColor = false;
+            this.btnMecanica.Click += new System.EventHandler(this.btnMecanica_Click);
             // 
             // btnInformatica
             // 
             this.btnInformatica.BackColor = System.Drawing.Color.Snow;
             this.btnInformatica.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnInformatica.Location = new System.Drawing.Point(128, 76);
+            this.btnInformatica.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnInformatica.Location = new System.Drawing.Point(192, 76);
             this.btnInformatica.Name = "btnInformatica";
             this.btnInformatica.Size = new System.Drawing.Size(133, 63);
             this.btnInformatica.TabIndex = 2;
             this.btnInformatica.Text = "Informatica";
             this.btnInformatica.UseVisualStyleBackColor = false;
+            this.btnInformatica.Click += new System.EventHandler(this.btnInformatica_Click);
             // 
             // btnGestion
             // 
             this.btnGestion.BackColor = System.Drawing.Color.Snow;
             this.btnGestion.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnGestion.Location = new System.Drawing.Point(438, 76);
+            this.btnGestion.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnGestion.Location = new System.Drawing.Point(502, 76);
             this.btnGestion.Name = "btnGestion";
             this.btnGestion.Size = new System.Drawing.Size(133, 63);
             this.btnGestion.TabIndex = 3;
             this.btnGestion.Text = "Gestion Empresarial";
             this.btnGestion.UseVisualStyleBackColor = false;
+            this.btnGestion.Click += new System.EventHandler(this.btnGestion_Click);
             // 
             // btnElectronica
             // 
             this.btnElectronica.BackColor = System.Drawing.Color.Snow;
             this.btnElectronica.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnElectronica.Location = new System.Drawing.Point(128, 168);
+            this.btnElectronica.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnElectronica.Location = new System.Drawing.Point(192, 168);
             this.btnElectronica.Name = "btnElectronica";
             this.btnElectronica.Size = new System.Drawing.Size(133, 63);
             this.btnElectronica.TabIndex = 4;
             this.btnElectronica.Text = "Electronica";
             this.btnElectronica.UseVisualStyleBackColor = false;
+            this.btnElectronica.Click += new System.EventHandler(this.btnElectronica_Click);
             // 
             // btnIndustrial
             // 
             this.btnIndustrial.BackColor = System.Drawing.Color.Snow;
             this.btnIndustrial.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnIndustrial.Location = new System.Drawing.Point(284, 168);
+            this.btnIndustrial.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnIndustrial.Location = new System.Drawing.Point(348, 168);
             this.btnIndustrial.Name = "btnIndustrial";
             this.btnIndustrial.Size = new System.Drawing.Size(133, 63);
             this.btnIndustrial.TabIndex = 5;
             this.btnIndustrial.Text = "Industrial";
             this.btnIndustrial.UseVisualStyleBackColor = false;
+            this.btnIndustrial.Click += new System.EventHandler(this.btnIndustrial_Click);
             // 
             // btnEnergias
             // 
             this.btnEnergias.BackColor = System.Drawing.Color.Snow;
             this.btnEnergias.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
-            this.btnEnergias.Location = new System.Drawing.Point(438, 168);
+            this.btnEnergias.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnEnergias.Location = new System.Drawing.Point(502, 168);
             this.btnEnergias.Name = "btnEnergias";
             this.btnEnergias.Size = new System.Drawing.Size(133, 63);
             this.btnEnergias.TabIndex = 6;
             this.btnEnergias.Text = "Energias Renovables";
             this.btnEnergias.UseVisualStyleBackColor = false;
+            this.btnEnergias.Click += new System.EventHandler(this.btnEnergias_Click);
             // 
             // lvEspecialidad
             // 
@@ -133,7 +148,7 @@ namespace LecturayEscrituraExcel
             this.lvEspecialidad.HideSelection = false;
             this.lvEspecialidad.Location = new System.Drawing.Point(38, 258);
             this.lvEspecialidad.Name = "lvEspecialidad";
-            this.lvEspecialidad.Size = new System.Drawing.Size(635, 387);
+            this.lvEspecialidad.Size = new System.Drawing.Size(788, 387);
             this.lvEspecialidad.TabIndex = 7;
             this.lvEspecialidad.UseCompatibleStateImageBehavior = false;
             this.lvEspecialidad.View = System.Windows.Forms.View.Details;
@@ -151,24 +166,39 @@ namespace LecturayEscrituraExcel
             // cNombre
             // 
             this.cNombre.Text = "Nombre";
-            this.cNombre.Width = 257;
+            this.cNombre.Width = 255;
             // 
             // cEspecialidad
             // 
             this.cEspecialidad.Text = "Especialidad";
-            this.cEspecialidad.Width = 109;
+            this.cEspecialidad.Width = 147;
             // 
             // cSemestre
             // 
             this.cSemestre.Text = "Semestre";
-            this.cSemestre.Width = 86;
+            this.cSemestre.Width = 123;
+            // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.Snow;
+            this.btnExit.Font = new System.Drawing.Font("Century Schoolbook", 9F, System.Drawing.FontStyle.Bold);
+            this.btnExit.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.btnExit.Location = new System.Drawing.Point(703, 17);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(123, 46);
+            this.btnExit.TabIndex = 8;
+            this.btnExit.Text = "Salir";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // DialogBoxPorEspecialidad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(703, 674);
+            this.ClientSize = new System.Drawing.Size(864, 674);
+            this.ControlBox = false;
+            this.Controls.Add(this.btnExit);
             this.Controls.Add(this.lvEspecialidad);
             this.Controls.Add(this.btnEnergias);
             this.Controls.Add(this.btnIndustrial);
@@ -180,6 +210,7 @@ namespace LecturayEscrituraExcel
             this.Name = "DialogBoxPorEspecialidad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Busqueda por Especialidad";
+            this.Load += new System.EventHandler(this.DialogBoxPorEspecialidad_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -200,5 +231,6 @@ namespace LecturayEscrituraExcel
         private System.Windows.Forms.ColumnHeader cNombre;
         private System.Windows.Forms.ColumnHeader cEspecialidad;
         private System.Windows.Forms.ColumnHeader cSemestre;
+        private System.Windows.Forms.Button btnExit;
     }
 }
